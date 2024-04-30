@@ -398,7 +398,8 @@ def menu():
     splash_loop.play(-1)
 
     myfont = pygame.font.Font('Chalkduster.ttf', 48)
-
+    to_click = ''
+    
     while 1:
         selected = [(244, 249, 253), (244, 249, 253), (244, 249, 253),
                     (244, 249, 253)]
